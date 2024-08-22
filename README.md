@@ -1,11 +1,19 @@
 # Opinion Market Model
 
 Code accompanying the paper "Opinion Market Model: Stemming Far-Right Opinion Spread
-using Positive Interventions" [[Calderon, et al. '22]](https://arxiv.org/pdf/2208.06620.pdf).
+using Positive Interventions" [[Calderon, et al. '24]](https://ojs.aaai.org/index.php/ICWSM/article/view/31306/33466).
 
 ## Description
 
 This repo contains the implementation for the bushfire case study discussed in the paper.
+
+The code is split into two version folders:
+
+`v1/`: version with regularization on two levels
+
+`v2/`: version with platform-specific structure regularization (see Appendix D)
+
+Each folder contains the following:
 
 `opinion_resources_opt1.py` : opinion volume (tier 1) model estimation
 
